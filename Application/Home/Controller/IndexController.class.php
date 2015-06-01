@@ -5,7 +5,6 @@ class IndexController extends Controller {
     public function index(){
         
         //TODO create user info to seesion 
-        
         $this->display();
     }
     
