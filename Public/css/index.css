@@ -1,0 +1,46 @@
+html body{
+    	height:100%;	
+		min-width:320px;
+		veralign:middle;
+		margin:0px auto;
+		background-image: url("../image/cut/bg.png");
+
+	}
+	div,p,img{margin:0;padding:0;}
+	
+	.headerDiv{
+	height:10%;
+	width:100%;
+	margin:6% auto;
+	text-align:center;
+	}
+	.headerDiv .titlePic{
+		width:40%;
+		
+		}
+  .sectionDiv{
+	height:100%;
+	width:80%;
+	font-family:黑体;
+	font-size:1.2rem;
+	color:#585858;
+	margin:6% auto;
+	}
+	
+	.sectionDiv .box .girlPic{float:left;width:48%; margin:5% auto; }
+	.sectionDiv .box .boyPic{float:right;width:48%;margin:5% auto;}
+	
+	
+		
+	.footerClass
+	{				
+		height:10%;
+		text-align:center;
+		clear:both;
+		width:100%;
+	}
+	.footerClass .rulePic
+	{			
+		width:40%;	
+		margin:6% auto;
+	}

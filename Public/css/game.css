@@ -1,0 +1,122 @@
+.bodyClass {
+	background-image: url("../image/cut/bg.png");
+}
+
+.headerBody {
+	text-align: right;
+}
+
+#goldCount {
+	color: #ff2400;
+	font-size: 22px;
+}
+
+body {
+	text-align: center;
+	font-family: 黑体;
+	color: #585858;
+}
+
+.bodyHeader {
+	margin: 20px 0px;
+}
+
+
+.girlImg{position:relative;
+			display:inline-block;
+			width: 300px;
+			height: 590px;
+			background: url('../image/girl/8.png') 0 0 no-repeat;}
+			.answerClass{
+			margin:200px 0px 0px;
+			 display:none;
+			}
+
+.boyImg {
+	position:relative;
+			display:inline-block;
+			width: 300px;
+			height: 590px;
+			background: url('../image/boy/1.png') 0 0 no-repeat;}
+			.boyAnswerClass{
+			margin:300px 0px 0px;
+			 display:none;
+			}
+
+.getCoinButton
+	{
+		background: url(../image/cut/getPresent.png);
+		width:208px;
+		height:70px;
+		margin:20px 0px;
+		display:none;
+	}
+	.CoinDiv
+	{
+		width:300px;
+		display:none;
+	}
+	.coinClass{
+		margin:30px 0px 20px;
+		display:none;
+	}
+	.coinMes{
+		font-family:黑体;color:#585858;
+		font-size:24px;
+		margin:0px 0px 10px;
+		display:none;
+	}
+
+.wrapper {
+	display: inline-block;
+}
+
+.wrapper .label {
+	float: left;
+	text-align: center;
+	font-family: 黑体;
+	color: #585858;
+}
+
+.label {
+	margin: 10px 20px 0px;
+}
+
+.label .mockradio {
+	display: inline-block;
+	width: 54px;
+	height: 54px;
+	background: url("../image/cut/gUnChoosed.png");
+	background-size: 100%;
+}
+
+.label .radiobox {
+	display: none;
+}
+
+.label .txt {
+	display: block;
+	font-family: 黑体;
+	color: #585858;
+	line-height: 30px;
+}
+
+.checked .mockradio {
+	background: url("../image/cut/gChoosed.png");
+	background-size: 100%;
+}
+
+.sumbitButton {
+	background: url(../image/cut/sub.png);
+	display: inline-block;
+	width: 150px;
+	height: 68px;
+}
+
+.duiHuanButton {
+	background: url(../image/cut/cpresent.png);
+	display: inline-block;
+	width: 123px;
+	height: 35px;
+	margin: 20px 0px 0px;
+}

@@ -1,0 +1,174 @@
+html body {
+	height: 100%;
+	width:320px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: 黑体;
+	color: #585858;
+	background-image: url("../image/cut/bg.png");
+}
+
+.headerDiv {
+	height:10%;
+	text-align: right;
+	width:100%;
+	font-size: .875rem;
+}
+
+#goldCount {
+	font-size: 1rem;
+	color: #ff2400;
+	
+}
+
+.SectionDiv{
+	height:60%;
+	width:100%;
+}
+
+.SectionDiv .bodyHeader {	
+	line-height:10px;
+	height:10%;
+}
+
+.levelNum{
+	font-size: 1.5rem;
+	margin:10px auto;
+}
+
+.quesNum{
+	font-size: 1rem;
+	margin:10px auto;
+}
+
+.SectionDiv .girlImgDiv{position:relative;
+			display:block;			
+			width:100%;
+			height:60%;
+			margin:0 auto;
+			
+			}
+.SectionDiv .girlImgDiv	.girlImg{
+			
+			position:absolute;
+				
+			width:45%;
+			height:auto;
+			z-index:-1;
+}
+.SectionDiv .girlImgDiv .mycanvas{
+			display:inline-block;			
+			}		
+			
+ .answerClass{
+			margin:30% 0px 36% -2%;
+			 display:none;
+			}
+
+.boyAnswerClass{
+			margin:40% 0px 25% -2%;
+			 display:none;
+			}
+			
+.getCoinButton
+	{
+		
+		width:auto;
+		height:35px;
+		margin:5px 0px;
+		display:none;
+	}
+	.SectionDiv .girlImgDiv .CoinDiv
+	{
+		
+		display:none;
+	}
+	.coinClass{
+		margin:10px 0px 5px;
+		display:none;
+	}
+	.coinMes{
+		font-family:黑体;color:#585858;
+		font-size:.875rem;
+		margin:0px 0px 5px;
+		display:none;
+	}
+	
+	.footerDiv{
+	width:100%;
+	height:30%;
+	
+}
+
+
+.footerDiv .wrapper {
+	height:30%;
+	display: inline-block;
+	
+}
+
+.wrapper .label {
+	float: left;
+	text-align: center;
+	font-family: 黑体;
+	color: #585858;
+}
+
+.label {
+	margin: 20px 10px 0px;
+}
+
+.label .mockradio {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url("../image/cut/gUnChoosed.png");
+	background-size: 100%;
+}
+
+.label .radiobox {
+	display: none;
+}
+
+.label .txt {
+	display: block;
+	font-family: 黑体;
+	color: #585858;
+	line-height: 30px;
+}
+
+.checked .mockradio {
+	background: url("../image/cut/gChoosed.png");
+	background-size: 100%;
+}
+
+.footerDiv .sumbitDiv {
+	display: block;
+	margin: 5% 0px 0px;
+	height:10%;
+}
+
+.footerDiv .sumbitDiv .sumbitButton{
+	
+	width:30%;
+	
+	padding: 10px 20px;
+	background: #c9c9c9;
+	border-radius: 6px;
+	color: #fff;
+	font-size: 1rem;
+	text-align: center;
+	border:0;
+	outline:none;
+	text-decoration: none;
+}
+
+
+
+.footerDiv .duiHuanButton {
+	
+	display: block;
+	width:25%;
+	
+	margin: 10% auto 0px;
+}
